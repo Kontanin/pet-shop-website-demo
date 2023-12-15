@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+
+
+
+
+.navbar {
+  position: sticky;
+
+  background-color: #c9c0c0;
+}
+
+
+.dropdown-one {
+  display: none;
+  padding: 14px 50px;
+  background-color: #979090;
+}
+
+.dropdown:hover  .dropdown-one{
+  display: block;
+
+}
+
+.dropdown {
+  float: left;
+  padding: 14px 50px;
+  margin: 50px;
+    background-color: #979090;
+}
+
+.dropdown:hover .dropdown-one, #link1:hover > .dropdown-two {
+  display: block;
+  position: relative;
+}
+
+.dropdown-two {
+  cursor: pointer;
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+}
+.dropdown-one:hover .dropdown-two {
+  display: inline;
+  margin: 150px;
+  padding: 200px 50px;
+  background-color: #f9f9f9;
+}
+
+.dropdown-one .dItem {
+  color: black;
+  padding: 12px 16px 20px;
+  display: block;
+  text-align: left;
+  background-color: #f9f9f9;
+}
+
+/* .dropdown-two .dItem {
+  color: black;
+  padding: 12px 16px;
+  display: block;
+  text-align: left;
+} */
+
+.Aboutcard{
+  background-color: #979090;
+  padding: 0px 0px;
+}
