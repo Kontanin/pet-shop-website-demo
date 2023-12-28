@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
 import Productpage from './pages/ProductPage'
 import ContactPage from './pages/ContactPage';
 import HomePage from './pages/HomePage';
@@ -16,10 +15,7 @@ import {
 import "./index.css";
 
 const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <App/>
-  },
+ 
   {
     path: "/product",
     element: <Productpage/>
@@ -31,6 +27,10 @@ const router = createBrowserRouter([
   {
     path: "/contact",
     element: <ContactPage/>
+  },
+  {
+    path: "/",
+    element: <HomePage/>
   },
   {
     path: "/home",

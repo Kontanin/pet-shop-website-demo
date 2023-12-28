@@ -1,7 +1,7 @@
 import Link from './Link';
 import { FaAngleDown } from "react-icons/fa";
 import Deepdropdown from './DeepDropDown';
-import data from '../product/product.json'
+import data from '../product/Product.json'
 import uniqid from 'uniqid';
 
 function Dropdown({label,className,path}) {

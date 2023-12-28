@@ -1,7 +1,6 @@
 
-import DefaultPage from './components/DefaultPage';
+import DefaultPage from './src/components/DefaultPage';
 // import Route from './components/Route';
-import StepprtForm from './components/StepperForm';
 
 
 function App() {
